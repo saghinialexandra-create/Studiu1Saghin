@@ -1,0 +1,20 @@
+@startuml
+
+start
+:Selectare lună;
+:Preluare cheltuieli;
+if (Există cheltuieli?) then (da)
+    :Calcul total;
+    :Grupare pe categorii;
+    :Generare grafic;
+else (nu)
+    :Afișare mesaj "Nu există date";
+endif
+stop
+
+@enduml
+
+
+
+
+
