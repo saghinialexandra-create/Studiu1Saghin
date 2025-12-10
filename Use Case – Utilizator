@@ -1,0 +1,15 @@
+
+@startuml
+
+actor Utilizator
+
+rectangle "Aplicație Cheltuieli" {
+    Utilizator --> (Logare)
+    Utilizator --> (Înregistrare)
+    Utilizator --> (Adăugare Cheltuială)
+    Utilizator --> (Ștergere Cheltuială)
+    Utilizator --> (Editare Cheltuială)
+    Utilizator --> (Generare Raport Lunar)
+}
+
+@enduml
